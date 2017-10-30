@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Seteando estructura*/
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+header{
+  background-color: #fff;
+  display: inline-block;
+  left: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+li {
+  display: inline-block;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.header-menu {
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #d3d3d3;
+  width: 100%;
+}
+
+/* Íconos a la izquierda */
+.box-left {
+  float: left;
+}
+
+/* Logo */
+.logo {
+  font-size: 16px;
+  font-weight: 700px;
+  padding: 0 5px;
+}
+
+.color-red {
+  color: #BD081C;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.fa-pinterest {
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  vertical-align: middle;
+  width: 20px;
+}
+
+/* Caja*/
+.search {
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 16px;
+  width: 70%;
+  padding: 10px;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box-lens {
+  width: 85%;
+}
+
+.fa-search {
+  padding: 0;
+}
+
+
+/* Lista de botones*/
+.list-btn-menu {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+}
+
+.search-filter {
+  cursor: pointer;
+  padding: 10px 10px 10px 0;
+}
+
+.search-filter span {
+  font-weight: 700;/*letras negritas*/
+}
+
+.filter-menu {
+  padding: 10px 0;
+}
+
+.filter-menu li {
+  margin: 0 5px;
+}
+
+.filter-menu span {
+  border-radius: 6px;
+  background-color: #AB8B6F;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: 20px 25px;
+}
+
+
+/* Galería de imágenes */
+
+.image1 {
+  width: 300px;
+  height: 300px;
+}
+
+.image2 {
+  width: 300px;
+  height: 300px;
+}
+
+
+.img {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+.image img {
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.galery-images {
+  margin: 180px 80px 50px;
+  overflow: auto;
+  column-width: 300px;
+  column-count: 3;
+  column-gap: 60px;
+}
